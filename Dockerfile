@@ -29,6 +29,6 @@ COPY entrypoint.sh /
 USER ngrok
 ENV USER=ngrok
 
-EXPOSE 4040
+EXPOSE 4040 4041 4042
 
 CMD ["/entrypoint.sh"]
